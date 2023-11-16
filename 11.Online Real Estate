@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #5a6bc1;
+    color: rgb(255, 255, 255);
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+section {
+    margin: 20px;
+}
+
+footer {
+    background-color: #594caf;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Fashion Store</title>
+    <!-- Add your CSS link here -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <h1>Online Shopping Store</h1>
+    <!-- Add navigation links here -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="https://www.amazon.com/all-categories/pr?sid=search.flipkart.com&page=1">Categories</a></li>
+            <li><a href="https://www.amazon.com/viewcart?exploreMode=true&preference=FLIPKART">Cart</a></li>
+            <li><a href="https://www.amazon.com/account/login">Login</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Main Content Section -->
+<main>
+
+    <!-- Display all available categories -->
+    <section>
+        <h2>Categories</h2>
+        <ul>
+            <li><a href="https://www.amazon.in/s?k=womes+wear&crid=1B8ZKV6PCYLFJ&sprefix=womes+wear%2Caps%2C364&ref=nb_sb_noss_2">Category 1: womens</a></li>
+            <li><a href="https://www.amazon.in/s?k=men+wear&crid=2KJ2UHKOOUR75&sprefix=men+wear%2Caps%2C349&ref=nb_sb_noss_1">category 2: mens </a></li>
+            <!-- Add more categories as needed -->
+        </ul>
+    </section>
+
+    <!-- Display subcategories for a selected category -->
+    <section>
+        <h2>Subcategories</h2>
+        <ul>
+            <li><a href="https://www.amazon.in/gp/new-releases/?ref_=nav_em_cs_newreleases_0_1_1_3">Subcategory 1</a></li>
+            <li><a href="https://www.amazon.in/gp/most-gifted/ref=zg_bsnr_tab_mg">Subcategory 2</a></li>
+            <!-- Add more subcategories as needed -->
+        </ul>
+    </section>
+
+    <!-- Display products in a category or subcategory -->
+    <section>
+        <h2>All products available</h2>
+        <p>Thank you for visiting my website</p>
+        <!-- Display product cards with details -->
+        <!-- Add dynamic content using server-side scripting -->
+    </section>
+
+</main>
+
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2023 Online Fashion Store. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
